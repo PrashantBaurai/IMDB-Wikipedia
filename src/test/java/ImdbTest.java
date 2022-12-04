@@ -12,12 +12,12 @@ public class ImdbTest {
 	
 	public  WebDriver driver;
 	
-	ImdbHomePage im = new ImdbHomePage(driver);
+	ImdbHomePage im ;
 	
 	@BeforeMethod
 	public void setup() {
 		
-		
+		im = new ImdbHomePage(driver);
         im.setUp();
         im.launchBrowserWithIMDB();
         
@@ -45,8 +45,7 @@ public class ImdbTest {
 	@AfterMethod
 	public void tearDown() throws InterruptedException {
 		im.closeBrowser();
-		
-	
 		Thread.sleep(5000);
+		
 	}
 }

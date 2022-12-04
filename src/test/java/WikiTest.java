@@ -8,10 +8,11 @@ import WikiPage.WikiHome;
 public class WikiTest {
 	
 	WebDriver driver;
-	WikiHome wiki = new WikiHome(driver);
+	WikiHome wiki ;
 	
 	@BeforeMethod
 	public void setup() {
+	    wiki = new WikiHome(driver);
         wiki.setUp();
 	}
 	

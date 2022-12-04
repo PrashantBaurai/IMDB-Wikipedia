@@ -163,10 +163,9 @@ public String movieName;
 
 			   }
 				System.out.println("4) got the Release date");
-				System.out.println();
-				System.out.println("The Release Date of '" + movieName + "' is => " + releaseDateDetails);
-
-	}
+				System.out.println("===============================================================================");
+				System.out.println("(OUTPUT) = The Release Date of '" + movieName + "' is => " + releaseDateDetails);
+				System.out.println("===============================================================================");	}
 	
 	
 	public void getCountryName() throws InterruptedException {
@@ -227,9 +226,9 @@ public String movieName;
 			   }
 			   }
 				System.out.println("4) got the Release date");
-				System.out.println();
-				System.out.println("The Country of origin of '" + movieName + "' is => " + country );
-
+				System.out.println("===============================================================================");
+				System.out.println("(OUTPUT) The Country of origin of '" + movieName + "' is => " + country );
+				System.out.println("===============================================================================");
 	
 	}
 	

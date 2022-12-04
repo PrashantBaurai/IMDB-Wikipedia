@@ -132,9 +132,9 @@ public class WikiHome extends Base1{
 
 		}
 		System.out.println("4) got the Release date");
-		System.out.println();
+		System.out.println("===============================================================================");
 		System.out.println("The Release Date of '" + movieName + "' is => " + releaseDateDetails);
-
+		System.out.println("===============================================================================");
 		
 
 	}
@@ -170,9 +170,9 @@ public class WikiHome extends Base1{
 		}
 		
 		System.out.println("4) got the Country Name");
-		System.out.println();
+		System.out.println("===============================================================================");
 		System.out.println("The Country of Movie name '" + movieName + "' is => " + country);
-         
+		System.out.println("===============================================================================");
 		
 
 	}
